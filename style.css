@@ -1,0 +1,419 @@
+                * {
+                    margin: 0 2px;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    background-color: rgb(250, 250, 250);
+                }
+                
+                header {
+                    display: fixed;
+                    position: relative;
+                    left: 0;
+                    top: 0;
+                    border-bottom: 1px solid rgb(170, 170, 170);
+                    background-color: rgb(255, 255, 255);
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    justify-content: space-between;
+                    overflow: hidden;
+                    z-index: 50;
+                }
+                
+                nav {
+                    display: flex;
+                    flex-direction: row;
+                    position: fixed;
+                    border-bottom: 1px solid rgb(170, 170, 170);
+                    background-color: rgb(255, 255, 255);
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    justify-content: space-between;
+                    overflow: hidden;
+                    z-index: 20;
+                }
+                
+                .insta-header>a>h2 {
+                    color: rgb(0, 0, 0);
+                    font-size: 30px;
+                    font-weight: 1200;
+                    display: flex;
+                }
+                
+                .insta-header>a {
+                    text-decoration: none;
+                    display: flex;
+                }
+                
+                .nav-right {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    flex-direction: row;
+                    padding: 5px;
+                    right: 0;
+                    z-index: 20;
+                }
+                
+                .nav-right div {
+                    display: block;
+                    width: 40px;
+                }
+                /* End of header */
+                /* started of the content */
+                
+                .stories {
+                    position: relative;
+                    display: flex;
+                    padding: 11px;
+                    margin: 1px;
+                    border-bottom: 1px solid rgb(212, 209, 209);
+                    border-radius: 15px;
+                    border: 1px solid rgb(189, 182, 182);
+                    background-color: white;
+                    max-width: 100%;
+                    margin-top: 80px;
+                }
+                
+                .stories-content {
+                    position: relative;
+                    display: flex;
+                    padding: 11px;
+                    margin: 1px;
+                    width: fit-content;
+                }
+                
+                .profilepic {
+                    border: 2px solid black;
+                    border-radius: 180px;
+                    height: 50px;
+                    width: 50px;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 7px;
+                }
+                
+                .protext {
+                    margin-left: 13px;
+                    font-size: 8px;
+                }
+                
+                .posts {
+                    display: flex;
+                    flex-direction: column;
+                    flex: 1;
+                    gap: 8px;
+                    /* margin-top: 20px; */
+                }
+                
+                .post {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    margin-top: 20px;
+                }
+                
+                .feed {
+                    border-bottom: 1px solid rgba(255, 255, 255, 1);
+                    position: relative;
+                    z-index: 10;
+                    background-color: white;
+                    border-top-left-radius: 12px;
+                    border-top-right-radius: 12px;
+                    border-top: 1px solid rgb(201, 201, 201);
+                }
+                
+                .feed img {
+                    height: 30px;
+                    width: 30px;
+                    justify-content: start;
+                    text-align: start;
+                    position: absolute;
+                    overflow: hidden;
+                    align-items: center;
+                    top: 5px;
+                }
+                
+                .feed h6 {
+                    position: absolute;
+                    text-indent: 55px;
+                    margin-top: 15px;
+                }
+                
+                .feed-2 a>img {
+                    display: flex;
+                    justify-content: flex-end;
+                    height: 27px;
+                    width: 27px;
+                    align-items: flex-end;
+                    right: 0;
+                }
+                
+                .img-feed>img {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                    overflow: hidden;
+                }
+                
+                .footer {
+                    padding: 0 5px;
+                    height: 30px;
+                    display: inline;
+                    position: relative;
+                    background-color: white;
+                }
+                
+                .footer>img {
+                    display: flex;
+                    /* position: relative; */
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .footer-1 {
+                    margin: -10px 0 30px 0;
+                    height: 55px;
+                    width: 55px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    position: absolute;
+                }
+                
+                .footer-1>img {
+                    padding-left: 20px;
+                    cursor: pointer;
+                }
+                
+                .footer-2>img {
+                    display: flex;
+                    justify-content: flex-end;
+                    height: 35px;
+                    width: 35px;
+                    align-items: flex-end;
+                    flex-direction: row;
+                    float: right;
+                    top: 0;
+                    background-color: white;
+                    margin: -18px 0 30px 0;
+                    cursor: pointer;
+                }
+                
+                .img-view {
+                    background-color: white;
+                }
+                
+                #com {
+                    height: 22px;
+                }
+                
+                .para {
+                    border-bottom: 1px solid rgb(147, 146, 146);
+                    font-size: 13px;
+                    height: auto;
+                    background-color: white;
+                    border-radius: 12px;
+                    height: auto;
+                }
+                
+                .para>#gray {
+                    color: rgb(94, 92, 92);
+                    cursor: pointer;
+                }
+                
+                #love:hover {
+                    background-color: red;
+                }
+                
+                .option {
+                    background-color: white;
+                    border-radius: 15px;
+                    border: 1px solid blue;
+                }
+                
+                .status {
+                    border-radius: 30px;
+                    border-top: 1px solid rgb(250, 250, 250);
+                }
+                
+                .header-search {
+                    width: 210px;
+                    height: 30px;
+                    display: none;
+                    align-items: center;
+                    position: relative;
+                    text-align: center;
+                }
+                
+                nav .header-search img {
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    left: 8px;
+                }
+                
+                .header-search input {
+                    width: 100%;
+                    height: 100%;
+                    padding: 4px 10px 4px 28px;
+                    border-radius: 4px;
+                    outline: none;
+                    font-size: 12px;
+                    font-weight: 300;
+                    text-decoration: none;
+                    color: var(--text-light);
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+                
+                #ustory {
+                    margin-left: -9px;
+                }
+                /*  */
+                /* responsiving the Instagram clone */
+                /* desktop mode 1024*768 */
+                
+                @media screen and (min-width:1024px) {
+                    body {
+                        width: 50%;
+                        height: auto;
+                        margin: 0 auto;
+                        display: flex;
+                    }
+                }
+                
+                @media screen and (min-width:1024px) {
+                    nav {
+                        display: flex;
+                        flex-direction: row;
+                        position: fixed;
+                        border-bottom: 1px solid rgb(240, 240, 240);
+                        background-color: rgb(255, 255, 255);
+                        width: 100%;
+                        height: 0 auto;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        overflow: hidden;
+                        z-index: 100;
+                        top: 0;
+                    }
+                }
+                
+                @media screen and (min-width:1024px) {
+                    header {
+                        display: flex;
+                        position: fixed;
+                    }
+                }
+                
+                @media screen and(min-width:1024px) {
+                    .stories {
+                        display: flex;
+                        padding: 1px;
+                        margin: 1px;
+                        border-radius: 15px;
+                        border: 1px solid rgb(189, 182, 182);
+                        background-color: rgb(255, 255, 255);
+                        max-width: 100%;
+                        width: 100%;
+                        margin-top: 180px;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                
+                @media screen and(min-width: 1024px) {
+                    .stories-content {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: nowrap;
+                        padding: 11px;
+                        margin-top: 201px;
+                        width: 0 auto;
+                        margin-bottom: 521px;
+                    }
+                }
+                
+                @media screen and (min-width :1024px) {
+                    .img-feed img {
+                        display: flex;
+                        border-radius: 5px;
+                    }
+                }
+                
+                @media screen and (min-width :1024px) {
+                    .posts {
+                        display: flex;
+                        border-left: 1px solid rgb(169, 169, 169);
+                        border-right: 1px solid rgb(169, 169, 169);
+                        z-index: 15;
+                    }
+                }
+                
+                @media screen and(min-width:1024px) {
+                    .feed {
+                        overflow: hidden;
+                    }
+                }
+                
+                @media screen and(min-width:1024px) {
+                    .header-search {
+                        width: 210px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        text-align: center;
+                    }
+                }
+                
+                @media screen and(min-width:1024px) {
+                    nav .header-search img {
+                        width: 15px;
+                        height: 15px;
+                        position: absolute;
+                        left: 8px;
+                    }
+                }
+                
+                @media screen and(min-width:1024px) {
+                    .header-search input {
+                        width: 100%;
+                        height: 100%;
+                        padding: 4px 10px 4px 28px;
+                        border-radius: 4px;
+                        outline: none;
+                        font-size: 12px;
+                        font-weight: 300;
+                        text-decoration: none;
+                        color: var(--text-light);
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                }
+                /* for mobile 360*/
+                
+                @media screen and(min-width:360px) {
+                    body {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                
+                @media screen and(min-width:360px) {
+                    .header-search {
+                        display: none;
+                    }
+                }
